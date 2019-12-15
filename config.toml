@@ -1,6 +1,6 @@
 baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "Parsa | Personal Blog Template"
+languageCode = "pt-br"
+title = "QI Zero | Um blog sobre tecnologia"
 theme = "parsa"
 summaryLength = "10"
 paginate = 6
@@ -50,33 +50,33 @@ paginate = 6
 [menu]
     
   [[menu.main]]
-  name = "About"
+  name = "Sobre"
   URL = "about"
   weight = 2
   
   [[menu.main]]
-  name = "Contact"
+  name = "Contato"
   URL = "contact"
   weight = 3
 
 
 [params]
 logo = "images/logo.png"
-home = "Home"
+home = "Início"
 # hompage layout ( two layout is available,  you can set the another layout by change the value of homeLayoutToggle "true" to "false")
 homeLayoutToggle = true
 # Meta data
 description = "This is meta description"
 # about author
-author = "Themefisher"
+author = "Luiz Gabriel"
 authorImage = "images/banner-img.png"
-shortDescription = "I’m a Freelance Interactive Art Director based in France. Focusing across branding and identity, digital and print."
+shortDescription = "Bacharel em Engenharia de Computação - IFCE"
 # Contact Form Action
 contactFormAction = "#"
 # Google Analitycs
 googleAnalitycsID = "Your ID"
 # copyright
-copyright = "a theme by [themefisher.com](themefisher.com)"
+copyright = "QI Zero | Todos os direitos reservados."
 
   # Preloader
   [params.preloader]
@@ -88,7 +88,7 @@ copyright = "a theme by [themefisher.com](themefisher.com)"
 
   # Instagram feed
   [params.instafeed]
-  enable = true
+  enable = false
   userID = "4044026246"
   accessToken = "4044026246.1677ed0.8896752506ed4402a0519d23b8f50a17"
 
@@ -97,33 +97,32 @@ copyright = "a theme by [themefisher.com](themefisher.com)"
 
     #address
     [[params.footer.addresses]]
-    address = "Sydney"
+    address = "Fortaleza - CE"
     
-    [[params.footer.addresses]]
-    address = "6 rip carl Avenue CA 90733"
-
+    #[[params.footer.addresses]]
+    #address = "6 rip carl Avenue CA 90733"
     
     #contact information
     [[params.footer.contacts]]
-    contactInfo = "Tel: +90 000 333 22"
+    contactInfo = "Tel: +55 85 99961-2848"
     
     [[params.footer.contacts]]
-    contactInfo = "Mail: exmaple@ymail.com"
+    contactInfo = "Email: luizgabriel.info@gmail.com"
 
 
   # social site
   [[params.social]]
   icon = "ti-facebook"
-  URL = "#"
+  URL = "https://facebook.com/luiz.gabriel.cristo"
   
-  [[params.social]]
-  icon = "ti-twitter-alt"
-  URL = "#"
+  #[[params.social]]
+  #icon = "ti-twitter-alt"
+  #URL = "#"
   
   [[params.social]]
   icon = "ti-linkedin"
-  URL = "#"
+  URL = "https://www.linkedin.com/in/luiz-gabriel-lacerda"
   
   [[params.social]]
   icon = "ti-github"
-  URL = "#"
+  URL = "https://github.com/luizgabriel"
