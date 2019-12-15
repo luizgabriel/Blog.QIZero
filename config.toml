@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "https://qi-zero.herokuapp.com/"
 languageCode = "pt-br"
 title = "QI Zero | Um blog sobre tecnologia"
 theme = "parsa"
